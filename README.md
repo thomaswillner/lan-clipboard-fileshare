@@ -35,6 +35,10 @@ The host (macOS) runs a Flask server that watches the system clipboard and serve
 └─────────────┘                            └─────────────┘
 ```
 
+## Platform
+
+The **host** (the machine running the server) must be **macOS** — it uses `pbpaste` and `osascript` for native clipboard access. The **clients** (the machines accessing the web UI) can be **anything with a browser**: Windows, Linux, Android, iOS, ChromeOS, or another Mac. No install needed on the client side.
+
 ## Installation
 
 ### Prerequisites
