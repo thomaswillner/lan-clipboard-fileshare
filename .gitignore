@@ -1,0 +1,17 @@
+# Certificates (sensitive)
+*.pem
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+
+# macOS
+.DS_Store
+
+# Shared files (runtime data)
+SharedFiles/
+
+# IDE
+.vscode/
+.idea/
