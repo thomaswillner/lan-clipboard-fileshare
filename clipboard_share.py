@@ -313,6 +313,7 @@ body{font-family:-apple-system,'Segoe UI',sans-serif;background:#1a1a2e;color:#e
 .header{text-align:center;padding:15px 0}
 .header h1{font-size:1.5em;color:#e94560}
 .header p{color:#888;font-size:.85em;margin-top:5px}
+.copyright{position:absolute;top:12px;left:16px;font-size:.7em;color:#555;font-weight:400}
 .status{text-align:center;padding:8px;margin:10px auto;border-radius:8px;font-size:.85em;max-width:900px}
 .connected{background:#0f3d0f;color:#4caf50}
 .disconnected{background:#3d0f0f;color:#f44336}
@@ -399,6 +400,7 @@ body{font-family:-apple-system,'Segoe UI',sans-serif;background:#1a1a2e;color:#e
 .img-upload-status.err{background:#3d0f0f;color:#f44336}
 @media(max-width:700px){.columns{grid-template-columns:1fr}}
 </style><script src="https://cdnjs.cloudflare.com/ajax/libs/jszip/3.10.1/jszip.min.js"></script></head><body>
+<div class="copyright">&copy; Thomas Willner 2026</div>
 <div class="header"><h1>&#128268; Clipboard + File Share</h1><p>Bidirectional sharing between Mac &amp; Windows &mdash; text &amp; images (PNG, JPEG, TIFF, GIF, BMP)</p></div>
 <div id="status" class="status connected">&#9679; Connected</div>
 <div class="tabs"><div class="tab active" onclick="switchTab('clipboard')">&#128203; Clipboard</div><div class="tab" onclick="switchTab('files')">&#128193; Files</div></div>
